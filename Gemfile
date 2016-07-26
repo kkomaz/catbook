@@ -24,6 +24,7 @@ gem 'rack-cors'
 gem 'devise'
 gem 'devise_token_auth' # Token based authentication for Rails JSON APIs
 gem 'omniauth' # required for devise_token_auth
+gem 'awesome_print', :require => 'ap'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
