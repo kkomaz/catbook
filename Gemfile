@@ -21,6 +21,9 @@ gem 'pry'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
+gem 'devise'
+gem 'devise_token_auth' # Token based authentication for Rails JSON APIs
+gem 'omniauth' # required for devise_token_auth
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
